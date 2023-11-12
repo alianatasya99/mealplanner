@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App Meal Prep</title>
+    <link rel="stylesheet" href="mealprep.css" />
+
+  </head>
+  <body>
+    <div class="mainWrapper">
+    
+      <h1> 🍜 MEAL PREP 🍜</h1>
+      <h2>"Prepare Today, Thrive Tomorrow: Your Recipe for a Healthier, Hassle-Free Life"</h2>
+
+      <form>
+        <div class="form-group">
+          <label>File name :</label>
+          <input id="fileName" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Content :</label>
+          <select id="ingredient-dropdown">
+          <textarea id="fileContents" class="form-control" rows="5"></textarea>
+          </select>
+
+        </div>
+        
+      </form>
+      <button id="btnCreate" class="btn btn-default">Create</button>
+      <button id="btnRead" class="btn btn-default">Read</button>
+      <button id="btnDelete" class="btn btn-default">Delete</button>
+      <button id="btnUpdate" class="btn btn-default">Update</button>
+      <button id="clear-btn">Clear</button>
+
+    
+    </div>
+    <a href="index.html">HOME</a>
+
+    <script src="mealprep.js">
+      
+      
+    </script>
+  </body>
+</html>
+
